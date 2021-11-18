@@ -1,0 +1,244 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background-image: url(../img/fondo.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #3c445b;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #personajes img:not(#Makoto_Takiya img){
+    display: none;
+}
+ */
+
+
+
+
+
+#headerB{
+    border-color: rgb(157, 131, 235);
+    align-items: center;
+    text-align: center;
+}
+#headerB:hover{
+    padding: 30px;
+    transition: 1s;
+}
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+#indice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
+    border-color: yellow;
+}
+
+#indice div{
+    background-color: rgba(255, 255, 0, 0.164);
+    padding: 20px;
+    text-align: center;
+}
+#indice a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border: rgba(248, 35, 35, 0) 3px solid;
+    min-width: min-content;
+}
+.fondodivs{
+    background-color: rgba(0, 19, 41, 0.598);
+    padding: 20px;
+    border: rgb(27, 143, 141) 3px double;
+    border-radius: 10px;
+}
+a{
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: none;
+}
+hr{
+    margin: 20px;
+}
+#cardDanna{
+    border-left: rgb(186, 204, 27) 3px double;
+    border-right: rgb(7, 165, 185) 3px double;
+    border-top: white 3px double;
+    border-bottom: white 3px double;
+    border-radius: 10px;
+}
+#cardKomori{
+    border: rgb(231, 72, 72) 3px double;
+    border-radius: 10px;
+}
+#cardKomori .btn-primary{
+    background-color: rgb(231, 72, 72);
+    border: rgb(231, 72, 72) 1px;
+}
+#cardKomori .btn-primary:hover{
+    background-color: rgb(226, 87, 87);
+    border: rgb(226, 87, 87) 3px;
+    transition: 500ms;
+}
+.btn-primary{
+    background-color: rgb(27, 143, 141);
+    border: rgb(27, 143, 141);
+}
+.btn-primary:hover{
+    background-color: rgb(27, 143, 85);
+    border: rgb(27, 143, 85);
+    transition: 500ms;
+}
+#Autor{
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(0, 0, 255);
+    margin: 0 10px;
+}
+#Historia{
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(0, 255, 60);
+    margin: 0 10px;
+    min-width: min-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Trama{
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(94, 32, 76);
+    margin: 0 10px;
+    min-width: min-content;
+}
+#lista_personajes{
+    text-align: center;
+    margin: 10px auto;
+    border-style: double;
+    border-width: 5px;
+    border-color: whitesmoke orangered whitesmoke rgb(35, 155, 137);
+    border-radius: 20px;
+}
+#lista_personajes li{
+    min-width: max-content;
+}
+#Humanostitulo{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 30px;
+    border-color: rgb(35, 155, 137);
+}
+#Humanostitulo h2{
+    padding: 0 10px;
+    border-left: rgb(37, 196, 172) 10px solid;
+    border-right: rgb(37, 196, 172) 10px solid;
+    text-align: center;
+}
+#Dragonestitulo{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 30px;
+    border-color: orangered;
+}
+#humanoslista a{
+    color: rgb(35, 155, 137);
+}
+#listadragones a{
+    color: orangered;
+}
+#SeccionDragon .fondodivs{
+    background-color: rgba(0, 19, 41, 0.598);
+    padding: 20px;
+    border: orangered 3px double;
+    border-radius: 10px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+h4{
+    font-style: italic;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* PSEUDO CLASES */
+#Autornav:hover{
+    border: solid rgb(0, 0, 255) 2px;
+    background-color: rgb(75, 186, 255);
+    transition: 0.2s;
+}
+#Autornav:active{
+    border: double rgb(0, 0, 255) 3px;
+    background-color: rgb(63, 155, 212);
+    transition: none;
+}
+#Historianav:hover{
+    border: solid rgb(0, 255, 60) 2px;
+    background-color: rgb(111, 211, 134);
+    transition: 0.2s;
+}
+#Historianav:active{
+    border: double rgb(0, 255, 60) 3px;
+    background-color: rgb(93, 182, 114);
+    transition: none;
+}
+#Tramanav:hover{
+    border: solid rgb(94, 32, 76) 2px;
+    background-color: rgb(218, 111, 187);
+    transition: 0.2s;
+}
+#Tramanav:active{
+    border: double rgb(94, 32, 76) 3px;
+    background-color: rgb(187, 98, 162);
+    transition: none;
+}
+#ListaPnav:hover{
+    border: solid rgb(35, 155, 137) 2px;
+    background-color: rgb(247, 150, 115);
+    transition: 0.2s;
+}
+#ListaPnav:active{
+    border: double rgb(35, 155, 137) 3px;
+    background-color: rgb(214, 131, 100);
+    transition: none;
+}
+#humanoslista a:hover{
+    font-size: larger;
+    border: 2px rgb(35, 155, 137) solid;
+    padding: 5px;
+    transition: 0.3s;
+}
+#humanoslista a:active{
+    background-color: rgba(255, 255, 255, 0.132);
+}
+#listadragones a:hover{
+    font-size: larger;
+    border: 2px orangered solid;
+    padding: 5px;
+    transition: 0.3s;
+}
+#listadragones a:active{
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 0.132);
+}
